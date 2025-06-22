@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+## Products Compare Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive and responsive **React** application that allows users to compare up to **three products** side-by-side. Users can browse categories like Mobiles, Laptops, Smartwatches, Cameras, and Headphones, then compare the technical specs in a sleek comparison view with support for **dark/light mode**, **search**, and **localStorage**.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+## GitHub Repository
 
-### `npm start`
+[https://github.com/chethanmj0430/products-compare-application](https://github.com/chethanmj0430/products-compare-application)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Clone the Repository
 
-### `npm test`
+git clone https://github.com/chethanmj0430/products-compare-application.git
+cd products-compare-application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Install Dependencies
 
-### `npm run build`
+Ensure you have Node.js and npm installed. Then run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Start the Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `npm run eject`
+Visit the app in your browser:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Category Browsing**
 
-## Learn More
+* View products by category: Mobiles, Laptops, Smartwatches, Cameras, Headphones
+* Product cards with: image, name, brand, price, and 2–3 features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Compare View**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Select up to 3 products to compare side-by-side
+* Comparison table auto-updates with selected products
+* Differences are highlighted visually (background highlight)
 
-### Code Splitting
+**Search + Filtering**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Filter products by name or brand within each category
 
-### Analyzing the Bundle Size
+**Dark/Light Mode**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Toggle UI theme using a floating button
 
-### Making a Progressive Web App
+**Responsive Design**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Mobile and desktop friendly with flexible layouts
 
-### Advanced Configuration
+**LocalStorage Persistence**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Compare list is retained across reloads
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+##  Assumptions
 
-### `npm run build` fails to minify
+* Product data is static and stored locally (no API/backend)
+* Images are sourced from Amazon public links
+* Maximum of 3 products can be selected for comparison
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Screenshots 
+
+* Home / Category View
+  ![Category View](image.png)
+
+* Product Grid
+  ![product view](image-1.png)
+
+* Comparison View
+  ![comparison view](image-2.png)
+
+
+## Tech Stack
+
+* **Frontend**: React (with functional components and hooks)
+* **Styling**: CSS3 (custom styling with responsive design)
+* **Tooling**: Create React App
+* **State**: useState, useEffect
+* **Persistence**: localStorage
+
+
+## Author
+
+Chethan M J(https://github.com/chethanmj0430)
+
