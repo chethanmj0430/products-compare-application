@@ -281,7 +281,7 @@ export const productsByCategory = {
       id: 34,
       name: 'Bose 700',
       brand: 'Bose',
-      image: 'https://m.media-amazon.com/images/I/71aNmxsRKdL._SL1500_.jpg',
+      image: 'https://m.media-amazon.com/images/I/71ZMZfVTqdL._SL1500_.jpg',
       price: '$379',
       features: ['ANC', '20h battery', 'Touch Controls']
     },
